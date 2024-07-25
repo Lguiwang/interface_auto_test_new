@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc548e44-68ac-4d5f-9971-78005652a3f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/官渡重症接口测试用例.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/ExcelReadMethod1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/ExcelReadMethod2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/LogUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+    <list default="true" id="fc548e44-68ac-4d5f-9971-78005652a3f7" name="Changes" comment="2024-07-25 日志工具、读写表格文件工具、全局变量配置文件编写">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ExcelReadMethod1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ExcelReadMethod2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LogUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/myworkspace/interface_autotest_iframe/interface_auto_test/data&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.ExcelReadMethod1.executor": "Run",
+    "Python.ExcelReadMethod2.executor": "Run",
+    "Python.LogUtil.executor": "Run",
+    "Python.temp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/myworkspace/interface_autotest_iframe/interface_auto_test/config"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myworkspace\interface_autotest_iframe\interface_auto_test\config" />
       <recent name="E:\myworkspace\interface_autotest_iframe\interface_auto_test\data" />
     </key>
   </component>
@@ -212,6 +202,15 @@
       <option name="presentableId" value="Default" />
       <updated>1721799185175</updated>
     </task>
+    <task id="LOCAL-00001" summary="2024-07-25 日志工具、读写表格文件工具、全局变量配置文件编写">
+      <option name="closed" value="true" />
+      <created>1721878061302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721878061302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,10 +218,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2024-07-25 日志工具、读写表格文件工具、全局变量配置文件编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-07-25 日志工具、读写表格文件工具、全局变量配置文件编写" />
   </component>
 </project>
